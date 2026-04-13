@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>亚马逊工具门户 · 我的常用</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <h1 class="site-title"><a href="index.html">亚马逊工具导航</a></h1>
+        <nav class="nav-tabs" aria-label="主导航">
+          <a href="index.html" class="is-active">门户</a>
+          <a href="catalog.html">全部工具</a>
+          <a href="review.html">审阅 <span id="nav-pending-badge" class="nav-pending-badge" aria-live="polite"></span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <p class="section-sub" style="margin-top: 0">
+        从全量库挑选常用工具固定到本页，或添加自有链接。数据仅保存在本机浏览器。
+      </p>
+
+      <h2 class="section-title">我的常用工具</h2>
+
+      <div id="portal-empty" class="empty-state">
+        <p>还没有常用工具。</p>
+        <p>
+          <a class="btn btn--primary" href="catalog.html">去全部工具挑选</a>
+        </p>
+        <p>也可在下方添加自定义书签。</p>
+      </div>
+
+      <div id="portal-by-category" class="portal-by-category-root" style="display: none" aria-live="polite"></div>
+
+      <div class="backup-bar">
+        <span>备份：</span>
+        <button type="button" class="btn btn--primary" id="btn-export">导出 JSON</button>
+        <label>
+          导入
+          <input type="file" id="import-file" accept="application/json,.json" />
+        </label>
+        <label>
+          策略
+          <select id="import-mode">
+            <option value="merge" selected>合并</option>
+            <option value="replace">覆盖</option>
+          </select>
+        </label>
+      </div>
+
+      <section class="custom-form" aria-labelledby="custom-heading">
+        <h2 id="custom-heading">添加自定义链接</h2>
+        <form id="custom-form" novalidate>
+          <div class="form-row">
+            <label for="custom-category">类别（必填）</label>
+            <select id="custom-category" name="categoryId" required>
+              <option value="">请选择类别</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <label for="custom-name">名称（必填）</label>
+            <input id="custom-name" name="name" type="text" required autocomplete="off" />
+          </div>
+          <div class="form-row">
+            <label for="custom-url">URL（必填，http/https）</label>
+            <input id="custom-url" name="url" type="url" placeholder="https://example.com" />
+          </div>
+          <div class="form-row">
+            <label for="custom-note">备注（选填）</label>
+            <textarea id="custom-note" name="note" rows="2"></textarea>
+          </div>
+          <p id="custom-form-error" class="form-error" role="alert"></p>
+          <button type="submit" class="btn btn--primary">添加到门户</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        本页所列第三方网站与工具仅供检索与导航，不构成任何推荐或背书；访问与使用所产生的风险由您自行承担，请遵守各平台服务条款、卖家政策及当地法律法规。
+      </p>
+      <p>
+        <strong>数据存放：</strong>收藏、自定义工具、内置工具的<strong>待审阅修改</strong>与<strong>已采纳覆盖</strong>、分类简介覆盖均保存在本机
+        localStorage（键名以 <code>amazonNav:</code> 开头）。请使用「导出 JSON」定期备份；备份版本 2 起包含审阅与覆盖字段。
+      </p>
+      <p>短链、邀请码与第三方页面可能变更或失效，请以各服务官网为准。</p>
+    </footer>
+
+    <script src="tools-data.js"></script>
+    <script src="storage.js"></script>
+    <script src="data-merge.js"></script>
+    <script src="tool-editor.js"></script>
+    <script src="app-portal.js"></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>全部工具 · 亚马逊工具导航</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <h1 class="site-title"><a href="index.html">亚马逊工具导航</a></h1>
+        <nav class="nav-tabs" aria-label="主导航">
+          <a href="index.html">门户</a>
+          <a href="catalog.html" class="is-active">全部工具</a>
+          <a href="review.html">审阅 <span id="nav-pending-badge" class="nav-pending-badge" aria-live="polite"></span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <p class="section-sub" style="margin-top: 0">
+        共 13 类工具清单。自定义添加的工具会出现在对应分类下。内置工具编辑需到「审阅」页采纳后生效；自定义保存后立即同步。
+      </p>
+
+      <div id="catalog-toc-host"></div>
+      <div id="catalog-root"></div>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        本页所列第三方网站与工具仅供检索与导航，不构成任何推荐或背书；访问与使用所产生的风险由您自行承担，请遵守各平台服务条款、卖家政策及当地法律法规。
+      </p>
+      <p>
+        <strong>数据存放：</strong>「加入门户」状态保存在本机浏览器的 localStorage，仅本机有效。门户首页可导出/导入 JSON
+        备份。原文中的代理、指纹浏览器等内容涉及合规与账号安全，请自行评估。
+      </p>
+      <p>短链与第三方页面可能变更或失效，请以各服务官网为准。</p>
+    </footer>
+
+    <script src="tools-data.js"></script>
+    <script src="storage.js"></script>
+    <script src="data-merge.js"></script>
+    <script src="tool-editor.js"></script>
+    <script src="app-catalog.js"></script>
+  </body>
+</html>

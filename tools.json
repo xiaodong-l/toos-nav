@@ -1,0 +1,1574 @@
+{
+  "version": 1,
+  "generatedFrom": "亚马逊工具分类版.md",
+  "categories": [
+    {
+      "id": "ip-compliance",
+      "name": "知识产权与合规",
+      "order": 1,
+      "intro": [
+        "用于检索美国、欧洲等地专利与公开文献，评估产品是否存在侵权风险，并在发现侵权时通过官方渠道处理。",
+        "涵盖专利局检索入口与亚马逊侵权举报页面，适合上架前排查与纠纷应对时的信息收集。"
+      ]
+    },
+    {
+      "id": "product-design",
+      "name": "选品与设计灵感（包装/视觉）",
+      "order": 2,
+      "intro": [
+        "从包装结构、品牌案例与素材站点获取灵感，辅助选品阶段的产品外观与视觉方向。",
+        "包含国内外设计媒体、图库与在线修图工具，便于快速参考与出图。"
+      ]
+    },
+    {
+      "id": "keywords-listing",
+      "name": "关键词与 Listing 文案",
+      "order": 3,
+      "intro": [
+        "围绕搜索词挖掘、ASIN 反查、长尾拓展与文案润色，支撑标题、五点与 Search Terms。",
+        "结合卖家后台品牌分析与多款第三方工具；注意各工具免费额度与数据延迟差异。"
+      ]
+    },
+    {
+      "id": "competitor-traffic",
+      "name": "竞品与流量分析（站内）",
+      "order": 4,
+      "intro": [
+        "在亚马逊站内快速查看排名、价格历史、评论与竞品卖点，辅助运营与调价决策。",
+        "多为浏览器插件形式，部分功能需付费；无官网链接的条目需自行在扩展商店搜索安装。"
+      ]
+    },
+    {
+      "id": "profit-logistics",
+      "name": "利润、物流与关务",
+      "order": 5,
+      "intro": [
+        "覆盖 FBA 费用试算、物流询价、HS 编码与标签合规等上架与发货前的数字核对。",
+        "结果仅供参考，请以亚马逊后台、承运商与海关最新规则为准。"
+      ]
+    },
+    {
+      "id": "media-assets",
+      "name": "图片/视频素材与处理",
+      "order": 6,
+      "intro": [
+        "提供抠图、压缩、无损放大、图床与版权素材来源，服务主图、A+ 与视频制作。",
+        "注意各站点的授权范围；商用前请阅读许可条款。"
+      ]
+    },
+    {
+      "id": "offsite-promo",
+      "name": "站外推广与流量",
+      "order": 7,
+      "intro": [
+        "用于站外链接、Deal 媒体、红人资源与邮件营销等渠道的调研与投放参考。",
+        "包含流量分析、短链与媒体清单；投放需符合平台与各站点政策。"
+      ]
+    },
+    {
+      "id": "reviews-feedback",
+      "name": "索评与客服辅助",
+      "order": 8,
+      "intro": [
+        "辅助邀评、邮件跟进与 Feedback 管理，减轻客服与评价相关重复操作。",
+        "使用前应确认亚马逊当前沟通与邀评政策，避免违规操作。"
+      ]
+    },
+    {
+      "id": "data-scraping",
+      "name": "数据采集与文本分析",
+      "order": 9,
+      "intro": [
+        "从页面批量抓取评论、QA、BSR 等数据，并结合词频工具做文本分析。",
+        "请遵守目标网站服务条款与适用法律，合理控制抓取频率。"
+      ]
+    },
+    {
+      "id": "trends-intel",
+      "name": "趋势与竞品网站情报",
+      "order": 10,
+      "intro": [
+        "通过搜索趋势、WHOIS、网站技术栈、历史快照与广告库等维度了解站外竞品与独立站。",
+        "适合调研竞品上线时间、投放素材与站外露出；部分服务已调整或需注册。"
+      ]
+    },
+    {
+      "id": "productivity",
+      "name": "效率与桌面工具",
+      "order": 11,
+      "intro": [
+        "密码管理、截图录屏、本地文件搜索与移动端看数等日常效率工具。",
+        "涵盖浏览器插件、桌面软件与 App；邀请码类信息可能随时间失效。"
+      ]
+    },
+    {
+      "id": "network-accounts",
+      "name": "网络环境与多账号",
+      "order": 12,
+      "intro": [
+        "涉及代理、指纹与超级浏览器等，用于多环境访问时的技术选项说明（原文整理）。",
+        "代理与多账号行为可能影响账号安全与合规，请自行评估平台规则与当地法律。"
+      ]
+    },
+    {
+      "id": "calendar-misc",
+      "name": "日历与杂项",
+      "order": 13,
+      "intro": [
+        "节假日与日期相关查询等杂项工具，便于排期与活动规划。"
+      ]
+    }
+  ],
+  "tools": [
+    {
+      "joinable": true,
+      "id": "uspto",
+      "categoryId": "ip-compliance",
+      "name": "USPTO",
+      "subFunction": "专利检索（美国）",
+      "type": "site",
+      "url": "http://patft.uspto.gov/",
+      "description": "美国专利商标局专利检索入口。"
+    },
+    {
+      "joinable": true,
+      "id": "google-patents",
+      "categoryId": "ip-compliance",
+      "name": "Google Patents",
+      "subFunction": "专利检索（谷歌专利）",
+      "type": "site",
+      "url": "https://www.google.com/?tbm=pts&gws_rd=ssl",
+      "description": "谷歌专利搜索，便于快速浏览与引用链接。"
+    },
+    {
+      "joinable": true,
+      "id": "epo-search",
+      "categoryId": "ip-compliance",
+      "name": "EPO",
+      "subFunction": "专利检索（欧洲）",
+      "type": "site",
+      "url": "https://www.epo.org/searching-for-patents.html",
+      "description": "欧洲专利局相关检索与说明入口。"
+    },
+    {
+      "joinable": true,
+      "id": "amazon-infringement",
+      "categoryId": "ip-compliance",
+      "name": "Amazon",
+      "subFunction": "侵权举报",
+      "type": "site",
+      "url": "https://www.amazon.com/report/infringement",
+      "description": "亚马逊 Report Infringement 官方页面。"
+    },
+    {
+      "joinable": true,
+      "id": "baoxiaohe",
+      "categoryId": "product-design",
+      "name": "包小盒",
+      "subFunction": "包装/结构参考",
+      "type": "site",
+      "url": "http://www.baoxiaohe.com",
+      "description": "包装结构与刀版参考。"
+    },
+    {
+      "joinable": true,
+      "id": "packmage",
+      "categoryId": "product-design",
+      "name": "Packmage",
+      "subFunction": "包装/结构参考",
+      "type": "site",
+      "url": "http://www.packmage.com",
+      "description": "包装设计相关站点。"
+    },
+    {
+      "joinable": true,
+      "id": "graphberry",
+      "categoryId": "product-design",
+      "name": "Graphberry",
+      "subFunction": "设计模板/素材",
+      "type": "site",
+      "url": "https://www.graphberry.com/",
+      "description": "免费设计模板与素材。"
+    },
+    {
+      "joinable": true,
+      "id": "packaging-world",
+      "categoryId": "product-design",
+      "name": "Packaging of the World",
+      "subFunction": "包装设计案例",
+      "type": "site",
+      "url": "https://packagingoftheworld.com/",
+      "description": "全球包装设计案例聚合。"
+    },
+    {
+      "joinable": true,
+      "id": "pinterest-ux",
+      "categoryId": "product-design",
+      "name": "Pinterest",
+      "subFunction": "灵感（UX 等）",
+      "type": "site",
+      "url": "https://www.pinterest.com/search/pins/?q=UX",
+      "description": "图片灵感搜索，可按关键词细化。"
+    },
+    {
+      "joinable": true,
+      "id": "huaban",
+      "categoryId": "product-design",
+      "name": "花瓣",
+      "subFunction": "灵感",
+      "type": "site",
+      "url": "https://huaban.com/",
+      "description": "国内灵感收藏与画板。"
+    },
+    {
+      "joinable": true,
+      "id": "foter",
+      "categoryId": "product-design",
+      "name": "Foter",
+      "subFunction": "图库",
+      "type": "site",
+      "url": "https://foter.com/",
+      "description": "图片素材聚合与搜索。"
+    },
+    {
+      "joinable": true,
+      "id": "interfacer",
+      "categoryId": "product-design",
+      "name": "Interfacer",
+      "subFunction": "界面灵感",
+      "type": "site",
+      "url": "https://interfacer.xyz/",
+      "description": "界面与组件灵感。"
+    },
+    {
+      "joinable": true,
+      "id": "unsplash-lofter",
+      "categoryId": "product-design",
+      "name": "unsplash.lofter",
+      "subFunction": "摄影/Unsplash 聚合",
+      "type": "site",
+      "url": "http://unsplash.lofter.com/",
+      "description": "Lofter 上的 Unsplash 聚合浏览。"
+    },
+    {
+      "joinable": true,
+      "id": "thedieline",
+      "categoryId": "product-design",
+      "name": "The Dieline",
+      "subFunction": "包装设计",
+      "type": "site",
+      "url": "https://thedieline.com/",
+      "description": "包装设计资讯与案例。"
+    },
+    {
+      "joinable": true,
+      "id": "shopping-design-tw",
+      "categoryId": "product-design",
+      "name": "Shopping Design",
+      "subFunction": "设计媒体（台）",
+      "type": "site",
+      "url": "https://www.shoppingdesign.com.tw/",
+      "description": "台湾设计消费媒体。"
+    },
+    {
+      "joinable": true,
+      "id": "designspiration",
+      "categoryId": "product-design",
+      "name": "Designspiration",
+      "subFunction": "灵感聚合",
+      "type": "site",
+      "url": "https://www.designspiration.com/",
+      "description": "设计灵感聚合与配色筛选。"
+    },
+    {
+      "joinable": true,
+      "id": "behance",
+      "categoryId": "product-design",
+      "name": "Behance",
+      "subFunction": "作品集",
+      "type": "site",
+      "url": "https://www.behance.net/",
+      "description": "Adobe 旗下设计师作品展示。"
+    },
+    {
+      "joinable": true,
+      "id": "bpando",
+      "categoryId": "product-design",
+      "name": "BP&O",
+      "subFunction": "品牌/包装案例",
+      "type": "site",
+      "url": "https://bpando.org/",
+      "description": "品牌与包装设计案例站。"
+    },
+    {
+      "joinable": true,
+      "id": "photopea-design",
+      "categoryId": "product-design",
+      "name": "Photopea",
+      "subFunction": "在线 PS",
+      "type": "site",
+      "url": "https://www.photopea.com/",
+      "description": "浏览器内在线 Photoshop 类编辑。"
+    },
+    {
+      "joinable": true,
+      "id": "nypl-digital",
+      "categoryId": "product-design",
+      "name": "NYPL Digital Collections",
+      "subFunction": "公共领域图档",
+      "type": "site",
+      "url": "https://digitalcollections.nypl.org/",
+      "description": "纽约公共图书馆数字化馆藏。"
+    },
+    {
+      "joinable": false,
+      "id": "brand-analytics",
+      "categoryId": "keywords-listing",
+      "name": "品牌分析",
+      "subFunction": "站内数据（搜索频率排名）",
+      "type": "backend",
+      "url": null,
+      "description": "卖家后台「品牌分析」：排名越靠前通常搜索量越大。无独立 URL，请从后台进入。"
+    },
+    {
+      "joinable": true,
+      "id": "sif",
+      "categoryId": "keywords-listing",
+      "name": "SIF",
+      "subFunction": "关键词反查/流量",
+      "type": "site",
+      "url": "https://www.sif.com/",
+      "description": "自然/广告词、位置与占比；有延迟；含插件；已呈收费趋势。"
+    },
+    {
+      "joinable": true,
+      "id": "asinseed",
+      "categoryId": "keywords-listing",
+      "name": "Asinseed",
+      "subFunction": "关键词反查",
+      "type": "site",
+      "url": "https://www.asinseed.com/cn/",
+      "description": "约每月 10 次免费（以官网为准）。"
+    },
+    {
+      "joinable": true,
+      "id": "sellersprite",
+      "categoryId": "keywords-listing",
+      "name": "卖家精灵",
+      "subFunction": "关键词反查/拓展",
+      "type": "site",
+      "url": "https://www.sellersprite.com/",
+      "description": "免费版前 5 词等限制；亦提供插件。"
+    },
+    {
+      "joinable": true,
+      "id": "sellics-sonar",
+      "categoryId": "keywords-listing",
+      "name": "Sellics Sonar",
+      "subFunction": "ASIN 反查/拓展",
+      "type": "site",
+      "url": "https://bit.ly/3oUxJO2",
+      "description": "免费 ASIN 关键词工具（短链以官网为准）。"
+    },
+    {
+      "joinable": true,
+      "id": "keywordtool-io",
+      "categoryId": "keywords-listing",
+      "name": "Keyword Tool",
+      "subFunction": "多平台拓展",
+      "type": "site",
+      "url": "https://keywordtool.io/",
+      "description": "免费可见拓展词，无量纲数据。"
+    },
+    {
+      "joinable": true,
+      "id": "kparser",
+      "categoryId": "keywords-listing",
+      "name": "Kparser",
+      "subFunction": "多平台拓展",
+      "type": "site",
+      "url": "https://kparser.com/",
+      "description": "关键词拓展工具。"
+    },
+    {
+      "joinable": true,
+      "id": "scientific-seller",
+      "categoryId": "keywords-listing",
+      "name": "Scientific Seller",
+      "subFunction": "慢速拓展（模拟搜索框）",
+      "type": "site",
+      "url": "https://app.scientificseller.com/keywordtool#/",
+      "description": "模拟搜索框下拉拓展；免费。"
+    },
+    {
+      "joinable": true,
+      "id": "merchantwords",
+      "categoryId": "keywords-listing",
+      "name": "MerchantWords",
+      "subFunction": "经典拓展（付费）",
+      "type": "site",
+      "url": "https://www.merchantwords.com/",
+      "description": "经典关键词拓展，多为付费。"
+    },
+    {
+      "joinable": true,
+      "id": "helium10",
+      "categoryId": "keywords-listing",
+      "name": "Helium 10",
+      "subFunction": "反查/综合（含 MAGNET2 等）",
+      "type": "site",
+      "url": "https://members.helium10.com/",
+      "description": "免费版每日 2 次反查等；含插件。"
+    },
+    {
+      "joinable": false,
+      "id": "kw-index-checker",
+      "categoryId": "keywords-listing",
+      "name": "KW Index Checker & Amazon Rank Tracker",
+      "subFunction": "ASIN+关键词排名",
+      "type": "extension",
+      "url": null,
+      "description": "批量查关键词位置；免费。原文仅插件类型，请在 Chrome 应用商店搜索名称安装。"
+    },
+    {
+      "joinable": true,
+      "id": "tool4seller",
+      "categoryId": "keywords-listing",
+      "name": "Tool4seller",
+      "subFunction": "Search Term 反查",
+      "type": "site",
+      "url": "https://www.tool4seller.cn/tools.html",
+      "description": "免费工具汇总入口；ST 反查见官网 FAQ。"
+    },
+    {
+      "joinable": true,
+      "id": "toptal-mergewords",
+      "categoryId": "keywords-listing",
+      "name": "Toptal Mergewords",
+      "subFunction": "词组组合",
+      "type": "site",
+      "url": "https://www.toptal.com/marketing/mergewords",
+      "description": "关键词组合生成。"
+    },
+    {
+      "joinable": true,
+      "id": "adresults-amazon-kw",
+      "categoryId": "keywords-listing",
+      "name": "Adresults Amazon Keyword Tool",
+      "subFunction": "长尾拓展",
+      "type": "site",
+      "url": "https://www.adresults.com/tools/amazon-keyword-tool/",
+      "description": "亚马逊长尾词工具；若跳转变化请以 adresults.com 站内为准。"
+    },
+    {
+      "joinable": false,
+      "id": "huge-amazon-suggestion-expander",
+      "categoryId": "keywords-listing",
+      "name": "Huge Amazon Search Suggestion Expander",
+      "subFunction": "搜索栏建议词下载",
+      "type": "extension",
+      "url": null,
+      "description": "亚马逊搜索栏关键词下载。原文仅名称；请在扩展商店搜索安装。"
+    },
+    {
+      "joinable": true,
+      "id": "small-seo-tools-kw",
+      "categoryId": "keywords-listing",
+      "name": "Small SEO Tools 关键词研究",
+      "subFunction": "拼写错误/错拼词拓展",
+      "type": "site",
+      "url": "https://smallseotools.com/keyword-research-tool/",
+      "description": "用于模拟错拼拓展思路；原文链接截断已用同类页替代。"
+    },
+    {
+      "joinable": true,
+      "id": "hemingway",
+      "categoryId": "keywords-listing",
+      "name": "Hemingway",
+      "subFunction": "英文可读性/语法",
+      "type": "site",
+      "url": "http://www.hemingwayapp.com/",
+      "description": "英文可读性分析；部分功能收费。"
+    },
+    {
+      "joinable": true,
+      "id": "nice-translator",
+      "categoryId": "keywords-listing",
+      "name": "Nice Translator",
+      "subFunction": "翻译（多语种）",
+      "type": "site",
+      "url": "http://www.nicetranslator.com",
+      "description": "多语种在线翻译。"
+    },
+    {
+      "joinable": true,
+      "id": "google-translate",
+      "categoryId": "keywords-listing",
+      "name": "Google 翻译",
+      "subFunction": "翻译",
+      "type": "site",
+      "url": "https://translate.google.cn/",
+      "description": "谷歌翻译（国内或国际版）。"
+    },
+    {
+      "joinable": true,
+      "id": "deepl",
+      "categoryId": "keywords-listing",
+      "name": "DeepL",
+      "subFunction": "翻译",
+      "type": "site",
+      "url": "https://www.deepl.com/translator",
+      "description": "机器翻译，质量常被称道。"
+    },
+    {
+      "joinable": false,
+      "id": "saladict",
+      "categoryId": "keywords-listing",
+      "name": "Saladict",
+      "subFunction": "划词翻译",
+      "type": "extension",
+      "url": null,
+      "description": "可自定义词典的划词翻译插件；请从浏览器扩展商店安装。"
+    },
+    {
+      "joinable": true,
+      "id": "portent-title-maker",
+      "categoryId": "keywords-listing",
+      "name": "Portent Title Maker",
+      "subFunction": "标题/话题生成",
+      "type": "site",
+      "url": "https://www.portent.com/tools/title-maker",
+      "description": "标题创意生成器。"
+    },
+    {
+      "joinable": false,
+      "id": "grammarly-chrome",
+      "categoryId": "keywords-listing",
+      "name": "Grammarly for Chrome",
+      "subFunction": "文案语法（插件）",
+      "type": "extension",
+      "url": null,
+      "description": "Listing 拼写/语法；免费版可用。请在 Chrome 网上应用店搜索 Grammarly。"
+    },
+    {
+      "joinable": true,
+      "id": "power-thesaurus",
+      "categoryId": "keywords-listing",
+      "name": "Power Thesaurus",
+      "subFunction": "同义词",
+      "type": "site",
+      "url": "https://www.powerthesaurus.org/",
+      "description": "同义词与相关词查询。"
+    },
+    {
+      "joinable": true,
+      "id": "wordkit",
+      "categoryId": "keywords-listing",
+      "name": "Wordkit",
+      "subFunction": "Listing 辅助/埋词参考",
+      "type": "site",
+      "url": "https://www.wordkit.cn/",
+      "description": "原文称更适合 FBM/新手参考。"
+    },
+    {
+      "joinable": true,
+      "id": "facebook-symbols",
+      "categoryId": "keywords-listing",
+      "name": "Facebook Symbols（piliapp）",
+      "subFunction": "特殊符号（五点描述）",
+      "type": "site",
+      "url": "http://cn.piliapp.com/facebook-symbols/",
+      "description": "特殊符号复制。"
+    },
+    {
+      "joinable": true,
+      "id": "emojicopy",
+      "categoryId": "keywords-listing",
+      "name": "EmojiCopy",
+      "subFunction": "Emoji",
+      "type": "site",
+      "url": "https://www.emojicopy.com/",
+      "description": "Emoji 复制工具。"
+    },
+    {
+      "joinable": true,
+      "id": "keywordtool-google",
+      "categoryId": "keywords-listing",
+      "name": "Keyword Tool（Google）",
+      "subFunction": "Google 关键词（SEO/A9 思路）",
+      "type": "site",
+      "url": "https://keywordtool.io/google",
+      "description": "谷歌渠道拓展词；原文含 SEO 与 A9 思路说明。"
+    },
+    {
+      "joinable": false,
+      "id": "ds-amazon-quick-view",
+      "categoryId": "competitor-traffic",
+      "name": "DS Amazon Quick View",
+      "subFunction": "搜索页快速信息",
+      "type": "extension",
+      "url": null,
+      "description": "搜索页排名等信息；免费。请在扩展商店搜索安装。"
+    },
+    {
+      "joinable": false,
+      "id": "helium10-ext-search",
+      "categoryId": "competitor-traffic",
+      "name": "Helium 10 插件",
+      "subFunction": "搜索页快速信息",
+      "type": "extension",
+      "url": null,
+      "description": "搜索页辅助；免费版有限制。请从官网或扩展商店获取。"
+    },
+    {
+      "joinable": false,
+      "id": "sellersprite-ext-search",
+      "categoryId": "competitor-traffic",
+      "name": "卖家精灵插件",
+      "subFunction": "搜索页快速信息",
+      "type": "extension",
+      "url": null,
+      "description": "搜索页快速信息；免费。与卖家精灵账号体系相关。"
+    },
+    {
+      "joinable": false,
+      "id": "keepa",
+      "categoryId": "competitor-traffic",
+      "name": "Keepa",
+      "subFunction": "历史价格/排名/Review",
+      "type": "extension",
+      "url": null,
+      "description": "价格、类目排名、Review、卖家数等；付费功能常见。请在浏览器扩展商店搜索 Keepa。"
+    },
+    {
+      "joinable": false,
+      "id": "sellersprite-ext-keepa-like",
+      "categoryId": "competitor-traffic",
+      "name": "卖家精灵插件",
+      "subFunction": "历史数据（类 Keepa）",
+      "type": "extension",
+      "url": null,
+      "description": "历史数据类功能；付费。同一插件不同功能入口。"
+    },
+    {
+      "joinable": false,
+      "id": "camelcamelcamel",
+      "categoryId": "competitor-traffic",
+      "name": "CamelCamelCamel",
+      "subFunction": "价格追踪",
+      "type": "extension",
+      "url": null,
+      "description": "亚马逊价格追踪插件/服务。请在扩展商店或官网安装。"
+    },
+    {
+      "joinable": false,
+      "id": "shumo",
+      "categoryId": "competitor-traffic",
+      "name": "数魔",
+      "subFunction": "数据/竞品",
+      "type": "site",
+      "url": null,
+      "description": "原文仅名称，请自行检索官网；无稳定链接故不可加入门户。"
+    },
+    {
+      "joinable": false,
+      "id": "fakespot",
+      "categoryId": "competitor-traffic",
+      "name": "Fakespot",
+      "subFunction": "Review 可信度",
+      "type": "extension",
+      "url": null,
+      "description": "A–F 评级参考；免费。请安装浏览器扩展。"
+    },
+    {
+      "joinable": true,
+      "id": "thereviewindex",
+      "categoryId": "competitor-traffic",
+      "name": "The Review Index",
+      "subFunction": "Review 分析",
+      "type": "site",
+      "url": "https://thereviewindex.com/us",
+      "description": "真实性占比、好评差评点汇总。"
+    },
+    {
+      "joinable": false,
+      "id": "sellersprite-ext-bullet",
+      "categoryId": "competitor-traffic",
+      "name": "卖家精灵插件",
+      "subFunction": "卖点下载",
+      "type": "extension",
+      "url": null,
+      "description": "卖点下载；付费。"
+    },
+    {
+      "joinable": false,
+      "id": "eardata",
+      "categoryId": "competitor-traffic",
+      "name": "EarData",
+      "subFunction": "导出产品数据",
+      "type": "extension",
+      "url": null,
+      "description": "导出产品数据；免费。请从扩展商店安装。"
+    },
+    {
+      "joinable": false,
+      "id": "fatkun",
+      "categoryId": "competitor-traffic",
+      "name": "Fatkun",
+      "subFunction": "主图/A+/视频采集",
+      "type": "extension",
+      "url": null,
+      "description": "批量下载图片；可按变体。浏览器扩展。"
+    },
+    {
+      "joinable": false,
+      "id": "sorftime-save",
+      "categoryId": "competitor-traffic",
+      "name": "Sorftime Save",
+      "subFunction": "类目 Best Seller 分析",
+      "type": "extension",
+      "url": null,
+      "description": "销量/评分/上架时间等；付费、偏选品。请搜索扩展安装。"
+    },
+    {
+      "joinable": true,
+      "id": "fba-revenue-calculator",
+      "categoryId": "profit-logistics",
+      "name": "FBA Revenue Calculator",
+      "subFunction": "FBA 费用试算",
+      "type": "site",
+      "url": "https://amzn.to/3IR6UlK",
+      "description": "输入 ASIN+成本+头程；不含推广/退货；各站改域名后缀。"
+    },
+    {
+      "joinable": true,
+      "id": "yanwen",
+      "categoryId": "profit-logistics",
+      "name": "燕文物流",
+      "subFunction": "物流询价（参考）",
+      "type": "site",
+      "url": "http://www.yw56.com.cn/",
+      "description": "物流询价参考；以官方为准。"
+    },
+    {
+      "joinable": true,
+      "id": "365area-hscode",
+      "categoryId": "profit-logistics",
+      "name": "365area",
+      "subFunction": "HS 编码",
+      "type": "site",
+      "url": "http://www.365area.com/hscode",
+      "description": "HS 编码查询参考。"
+    },
+    {
+      "joinable": true,
+      "id": "nowmsg",
+      "categoryId": "profit-logistics",
+      "name": "NowMsg",
+      "subFunction": "邮编",
+      "type": "site",
+      "url": "https://www.nowmsg.com/",
+      "description": "邮编等信息查询。"
+    },
+    {
+      "joinable": true,
+      "id": "made-in-china-label",
+      "categoryId": "profit-logistics",
+      "name": "产品标签 Made in China",
+      "subFunction": "短链工具",
+      "type": "site",
+      "url": "https://bit.ly/31ZZax4",
+      "description": "原文提供的短链入口；失效请搜索最新说明。"
+    },
+    {
+      "joinable": false,
+      "id": "bartender",
+      "categoryId": "profit-logistics",
+      "name": "Bartender",
+      "subFunction": "箱唛批量打印",
+      "type": "desktop",
+      "url": null,
+      "description": "桌面标签打印软件；原文提及破解版，请注意版权与合规。"
+    },
+    {
+      "joinable": true,
+      "id": "fba-cargo-short",
+      "categoryId": "profit-logistics",
+      "name": "FBA 仓位/物流信息",
+      "subFunction": "短链",
+      "type": "site",
+      "url": "https://bit.ly/3dSoN5E",
+      "description": "FBA 相关说明短链；请以亚马逊后台为准。"
+    },
+    {
+      "joinable": true,
+      "id": "azool",
+      "categoryId": "profit-logistics",
+      "name": "azool",
+      "subFunction": "PDF/A4 小格加 Made in China",
+      "type": "site",
+      "url": "https://azool.cn/",
+      "description": "原文述备用：PDF→Word 替换再转 PDF。"
+    },
+    {
+      "joinable": false,
+      "id": "guangying-moshoushou",
+      "categoryId": "media-assets",
+      "name": "光影魔术手",
+      "subFunction": "本地图像处理",
+      "type": "desktop",
+      "url": null,
+      "description": "裁剪、拼接、批处理；请从官网下载安装。"
+    },
+    {
+      "joinable": true,
+      "id": "remove-bg",
+      "categoryId": "media-assets",
+      "name": "Remove.bg",
+      "subFunction": "抠图",
+      "type": "site",
+      "url": "https://www.remove.bg/",
+      "description": "自动抠图。"
+    },
+    {
+      "joinable": true,
+      "id": "photopea-media",
+      "categoryId": "media-assets",
+      "name": "Photoshop / Photopea",
+      "subFunction": "图像编辑（本地/网页）",
+      "type": "site",
+      "url": "https://www.photopea.com/",
+      "description": "Photopea 网页版；Photoshop 为本地安装。"
+    },
+    {
+      "joinable": true,
+      "id": "bigjpg",
+      "categoryId": "media-assets",
+      "name": "Bigjpg",
+      "subFunction": "无损放大",
+      "type": "site",
+      "url": "https://bigjpg.com/",
+      "description": "图片放大；免费约 4 倍。"
+    },
+    {
+      "joinable": true,
+      "id": "tinypng",
+      "categoryId": "media-assets",
+      "name": "TinyPNG",
+      "subFunction": "压缩",
+      "type": "site",
+      "url": "https://tinypng.com/",
+      "description": "PNG/JPEG 压缩，控制体积便于上传。"
+    },
+    {
+      "joinable": true,
+      "id": "geekpic",
+      "categoryId": "media-assets",
+      "name": "Geekpic",
+      "subFunction": "图床",
+      "type": "site",
+      "url": "http://geekpic.net/",
+      "description": "表格上传用图床链接。"
+    },
+    {
+      "joinable": true,
+      "id": "58pic",
+      "categoryId": "media-assets",
+      "name": "千图",
+      "subFunction": "图片素材",
+      "type": "site",
+      "url": "https://www.58pic.com/",
+      "description": "国内素材站（与昵图等并列原文）。"
+    },
+    {
+      "joinable": true,
+      "id": "nipic",
+      "categoryId": "media-assets",
+      "name": "昵图",
+      "subFunction": "图片素材",
+      "type": "site",
+      "url": "https://www.nipic.com/index.html",
+      "description": "国内素材站。"
+    },
+    {
+      "joinable": true,
+      "id": "subtle-patterns",
+      "categoryId": "media-assets",
+      "name": "Subtle Patterns",
+      "subFunction": "图案/纹理",
+      "type": "site",
+      "url": "https://www.toptal.com/designers/subtlepatterns/",
+      "description": "无缝背景纹理。"
+    },
+    {
+      "joinable": true,
+      "id": "pexels",
+      "categoryId": "media-assets",
+      "name": "Pexels",
+      "subFunction": "图库",
+      "type": "site",
+      "url": "https://www.pexels.com/",
+      "description": "免费图库与视频。"
+    },
+    {
+      "joinable": true,
+      "id": "veer",
+      "categoryId": "media-assets",
+      "name": "Veer",
+      "subFunction": "图库",
+      "type": "site",
+      "url": "https://www.veer.com/",
+      "description": "图库/素材（原文与 Pexels 并列）。"
+    },
+    {
+      "joinable": true,
+      "id": "freebiesbug",
+      "categoryId": "media-assets",
+      "name": "Freebiesbug",
+      "subFunction": "设计免费资源",
+      "type": "site",
+      "url": "https://freebiesbug.com",
+      "description": "设计免费资源聚合。"
+    },
+    {
+      "joinable": true,
+      "id": "logonews",
+      "categoryId": "media-assets",
+      "name": "Logonews",
+      "subFunction": "Logo/品牌资讯",
+      "type": "site",
+      "url": "http://www.logonews.cn",
+      "description": "Logo 与品牌资讯。"
+    },
+    {
+      "joinable": true,
+      "id": "material-palette",
+      "categoryId": "media-assets",
+      "name": "Material Palette",
+      "subFunction": "配色",
+      "type": "site",
+      "url": "https://www.materialpalette.com/",
+      "description": "Material 风格配色生成。"
+    },
+    {
+      "joinable": true,
+      "id": "color-lisa",
+      "categoryId": "media-assets",
+      "name": "Color Lisa",
+      "subFunction": "配色",
+      "type": "site",
+      "url": "http://www.colorlisa.com/",
+      "description": "名画配色方案。"
+    },
+    {
+      "joinable": true,
+      "id": "findicons",
+      "categoryId": "media-assets",
+      "name": "FindIcons",
+      "subFunction": "图标",
+      "type": "site",
+      "url": "https://findicons.com/",
+      "description": "图标搜索。"
+    },
+    {
+      "joinable": true,
+      "id": "lineicons",
+      "categoryId": "media-assets",
+      "name": "Lineicons",
+      "subFunction": "图标",
+      "type": "site",
+      "url": "https://lineicons.com/",
+      "description": "线性图标资源。"
+    },
+    {
+      "joinable": true,
+      "id": "videezy",
+      "categoryId": "media-assets",
+      "name": "Videezy",
+      "subFunction": "视频素材",
+      "type": "site",
+      "url": "https://www.videezy.com/",
+      "description": "视频素材站。"
+    },
+    {
+      "joinable": true,
+      "id": "videvo",
+      "categoryId": "media-assets",
+      "name": "Videvo",
+      "subFunction": "视频素材",
+      "type": "site",
+      "url": "https://www.videvo.net/",
+      "description": "免费视频与音效。"
+    },
+    {
+      "joinable": true,
+      "id": "vidsplay",
+      "categoryId": "media-assets",
+      "name": "Vidsplay",
+      "subFunction": "视频素材",
+      "type": "site",
+      "url": "https://www.vidsplay.com/",
+      "description": "免费视频素材。"
+    },
+    {
+      "joinable": true,
+      "id": "vimeo-freehd",
+      "categoryId": "media-assets",
+      "name": "Vimeo Free HD",
+      "subFunction": "视频素材",
+      "type": "site",
+      "url": "https://vimeo.com/groups/freehd/",
+      "description": "Vimeo 免费高清组。"
+    },
+    {
+      "joinable": true,
+      "id": "mixkit",
+      "categoryId": "media-assets",
+      "name": "Mixkit",
+      "subFunction": "视频素材",
+      "type": "site",
+      "url": "https://mixkit.co/",
+      "description": "免费视频与音乐素材。"
+    },
+    {
+      "joinable": false,
+      "id": "leapca",
+      "categoryId": "offsite-promo",
+      "name": "Leapca",
+      "subFunction": "站外链接/网红",
+      "type": "extension",
+      "url": null,
+      "description": "ASIN 站外链接、YouTube 等；浏览器插件。"
+    },
+    {
+      "joinable": true,
+      "id": "asin-xuggest",
+      "categoryId": "offsite-promo",
+      "name": "ASIN Xuggest",
+      "subFunction": "权威链接/ASIN",
+      "type": "site",
+      "url": "https://asin.xuggest.com/",
+      "description": "站外 ASIN 相关参考。"
+    },
+    {
+      "joinable": true,
+      "id": "similarweb",
+      "categoryId": "offsite-promo",
+      "name": "SimilarWeb",
+      "subFunction": "网站流量分析",
+      "type": "site",
+      "url": "https://www.similarweb.com/",
+      "description": "网站流量与来源分析。"
+    },
+    {
+      "joinable": true,
+      "id": "alexa-siteinfo",
+      "categoryId": "offsite-promo",
+      "name": "Alexa",
+      "subFunction": "网站流量（历史常用）",
+      "type": "site",
+      "url": "https://www.alexa.com/siteinfo",
+      "description": "服务已调整，仅供参考；可改用 SimilarWeb 等。"
+    },
+    {
+      "joinable": true,
+      "id": "bitly",
+      "categoryId": "offsite-promo",
+      "name": "Bitly",
+      "subFunction": "短链与追踪",
+      "type": "site",
+      "url": "https://bitly.com/",
+      "description": "短链接与点击统计。"
+    },
+    {
+      "joinable": true,
+      "id": "trafficwiser",
+      "categoryId": "offsite-promo",
+      "name": "TrafficWiser",
+      "subFunction": "站外投放与排名",
+      "type": "site",
+      "url": "https://www.trafficwiser.com/",
+      "description": "站外投放相关（以官网为准）。"
+    },
+    {
+      "joinable": true,
+      "id": "theinventory",
+      "categoryId": "offsite-promo",
+      "name": "The Inventory",
+      "subFunction": "Deal/媒体",
+      "type": "site",
+      "url": "https://theinventory.com/",
+      "description": "Deal/媒体站点之一（原文多站并列）。"
+    },
+    {
+      "joinable": true,
+      "id": "slickdeals",
+      "categoryId": "offsite-promo",
+      "name": "Slickdeals",
+      "subFunction": "Deal/媒体",
+      "type": "site",
+      "url": "https://slickdeals.net/",
+      "description": "北美 Deal 社区。"
+    },
+    {
+      "joinable": true,
+      "id": "cnet",
+      "categoryId": "offsite-promo",
+      "name": "CNET",
+      "subFunction": "Deal/媒体",
+      "type": "site",
+      "url": "https://www.cnet.com/",
+      "description": "科技媒体与优惠资讯。"
+    },
+    {
+      "joinable": true,
+      "id": "bradsdeals",
+      "categoryId": "offsite-promo",
+      "name": "Brads Deals",
+      "subFunction": "Deal/媒体",
+      "type": "site",
+      "url": "https://www.bradsdeals.com/",
+      "description": "优惠信息聚合。"
+    },
+    {
+      "joinable": true,
+      "id": "techbargains",
+      "categoryId": "offsite-promo",
+      "name": "TechBargains",
+      "subFunction": "Deal/媒体",
+      "type": "site",
+      "url": "https://www.techbargains.com/",
+      "description": "科技类 Deal。"
+    },
+    {
+      "joinable": true,
+      "id": "dealnews",
+      "categoryId": "offsite-promo",
+      "name": "DealNews",
+      "subFunction": "Deal/媒体",
+      "type": "site",
+      "url": "https://www.dealnews.com/",
+      "description": "Deal 聚合。"
+    },
+    {
+      "joinable": true,
+      "id": "bensbargains",
+      "categoryId": "offsite-promo",
+      "name": "Ben's Bargains",
+      "subFunction": "Deal/媒体",
+      "type": "site",
+      "url": "https://bensbargains.com/",
+      "description": "Deal 站点。"
+    },
+    {
+      "joinable": true,
+      "id": "hip2save",
+      "categoryId": "offsite-promo",
+      "name": "Hip2Save",
+      "subFunction": "Deal/媒体",
+      "type": "site",
+      "url": "https://hip2save.com/",
+      "description": "优惠券与 Deal。"
+    },
+    {
+      "joinable": true,
+      "id": "dealmoon",
+      "categoryId": "offsite-promo",
+      "name": "北美省钱快报",
+      "subFunction": "Deal/媒体",
+      "type": "site",
+      "url": "https://www.dealmoon.com/",
+      "description": "中文用户常用 Deal 媒体。"
+    },
+    {
+      "joinable": true,
+      "id": "1sale",
+      "categoryId": "offsite-promo",
+      "name": "1Sale",
+      "subFunction": "Deal/媒体",
+      "type": "site",
+      "url": "https://www.1sale.com/",
+      "description": "每日 Deal。"
+    },
+    {
+      "joinable": true,
+      "id": "dealwiki",
+      "categoryId": "offsite-promo",
+      "name": "DealWiki",
+      "subFunction": "Deal/媒体",
+      "type": "site",
+      "url": "https://dealwiki.com/",
+      "description": "Deal 维基/汇总类站点。"
+    },
+    {
+      "joinable": true,
+      "id": "fabulesslyfrugal",
+      "categoryId": "offsite-promo",
+      "name": "Fabulessly Frugal",
+      "subFunction": "Deal/媒体",
+      "type": "site",
+      "url": "https://fabulesslyfrugal.com/",
+      "description": "省钱与 Deal 博客。"
+    },
+    {
+      "joinable": true,
+      "id": "dealsplus",
+      "categoryId": "offsite-promo",
+      "name": "DealsPlus",
+      "subFunction": "Deal/媒体",
+      "type": "site",
+      "url": "https://www.dealsplus.com/",
+      "description": "优惠券与返现。"
+    },
+    {
+      "joinable": true,
+      "id": "lessordinaryliving",
+      "categoryId": "offsite-promo",
+      "name": "Less Ordinary Living",
+      "subFunction": "Deal/媒体",
+      "type": "site",
+      "url": "https://www.lessordinaryliving.com/",
+      "description": "生活方式与优惠类站点（原文列表之一）。"
+    },
+    {
+      "joinable": true,
+      "id": "kaidi123",
+      "categoryId": "offsite-promo",
+      "name": "kaidi123",
+      "subFunction": "红人/买家秀视频",
+      "type": "site",
+      "url": "https://www.kaidi123.com/",
+      "description": "红人/买家秀类资源（原文整理）。"
+    },
+    {
+      "joinable": true,
+      "id": "mailchimp",
+      "categoryId": "offsite-promo",
+      "name": "Mailchimp",
+      "subFunction": "邮件营销",
+      "type": "site",
+      "url": "https://mailchimp.com/",
+      "description": "邮件营销与自动化。"
+    },
+    {
+      "joinable": true,
+      "id": "mailgun",
+      "categoryId": "offsite-promo",
+      "name": "Mailgun",
+      "subFunction": "邮件营销",
+      "type": "site",
+      "url": "https://www.mailgun.com/",
+      "description": "邮件 API 与发送服务。"
+    },
+    {
+      "joinable": true,
+      "id": "getresponse-cn",
+      "categoryId": "offsite-promo",
+      "name": "GetResponse",
+      "subFunction": "邮件营销",
+      "type": "site",
+      "url": "https://cn.getresponse.com/",
+      "description": "邮件营销平台（中文站入口）。"
+    },
+    {
+      "joinable": false,
+      "id": "jungle-scout-ext-review",
+      "categoryId": "reviews-feedback",
+      "name": "Jungle Scout 插件",
+      "subFunction": "索评",
+      "type": "extension",
+      "url": null,
+      "description": "索评相关插件功能；请从扩展商店或官网获取。"
+    },
+    {
+      "joinable": false,
+      "id": "sellersprite-ext-feedback",
+      "categoryId": "reviews-feedback",
+      "name": "卖家精灵插件",
+      "subFunction": "索评",
+      "type": "extension",
+      "url": null,
+      "description": "索评辅助；请安装卖家精灵插件。"
+    },
+    {
+      "joinable": true,
+      "id": "ziniao-review",
+      "categoryId": "reviews-feedback",
+      "name": "紫鸟超级浏览器",
+      "subFunction": "索评",
+      "type": "site",
+      "url": "http://superbrowser.ziniao.com/register/",
+      "description": "自带一键索评等功能；见注册页说明。"
+    },
+    {
+      "joinable": true,
+      "id": "sellerlabs-feedback-genius",
+      "categoryId": "reviews-feedback",
+      "name": "Seller Labs Feedback Genius",
+      "subFunction": "邮件索评 / Feedback",
+      "type": "site",
+      "url": "https://www.sellerlabs.com/feedback-genius/",
+      "description": "邮件与 Feedback 管理类服务。"
+    },
+    {
+      "joinable": true,
+      "id": "selling-express",
+      "categoryId": "reviews-feedback",
+      "name": "Selling Express",
+      "subFunction": "催评",
+      "type": "site",
+      "url": "https://www.sellingexpress.net",
+      "description": "催评/邮件类工具（以官网为准）。"
+    },
+    {
+      "joinable": false,
+      "id": "instant-data-scraper",
+      "categoryId": "data-scraping",
+      "name": "Instant Data Scraper",
+      "subFunction": "网页抓取",
+      "type": "extension",
+      "url": null,
+      "description": "Review、QA、BSR 等抓取；免费。请安装扩展。"
+    },
+    {
+      "joinable": true,
+      "id": "wordcounter",
+      "categoryId": "data-scraping",
+      "name": "WordCounter",
+      "subFunction": "词频统计",
+      "type": "site",
+      "url": "https://wordcounter.net/",
+      "description": "配合爬取结果做词频分析。"
+    },
+    {
+      "joinable": true,
+      "id": "google-trends",
+      "categoryId": "trends-intel",
+      "name": "Google Trends",
+      "subFunction": "搜索趋势",
+      "type": "site",
+      "url": "https://trends.google.com/",
+      "description": "关键词相对热度趋势。"
+    },
+    {
+      "joinable": true,
+      "id": "icann-lookup",
+      "categoryId": "trends-intel",
+      "name": "ICANN Lookup",
+      "subFunction": "域名/WHOIS",
+      "type": "site",
+      "url": "https://lookup.icann.org/",
+      "description": "域名注册信息查询，可辅助推断站点上线等。"
+    },
+    {
+      "joinable": true,
+      "id": "builtwith",
+      "categoryId": "trends-intel",
+      "name": "BuiltWith",
+      "subFunction": "技术栈",
+      "type": "site",
+      "url": "https://builtwith.com/",
+      "description": "网站技术栈与工具检测。"
+    },
+    {
+      "joinable": true,
+      "id": "wayback-machine",
+      "categoryId": "trends-intel",
+      "name": "Wayback Machine",
+      "subFunction": "历史网页",
+      "type": "site",
+      "url": "https://web.archive.org/",
+      "description": "网页历史快照。"
+    },
+    {
+      "joinable": true,
+      "id": "facebook-ad-library",
+      "categoryId": "trends-intel",
+      "name": "Facebook Ad Library",
+      "subFunction": "Meta 广告库",
+      "type": "site",
+      "url": "https://www.facebook.com/ads/library/",
+      "description": "Facebook/Instagram 广告透明库。"
+    },
+    {
+      "joinable": true,
+      "id": "bigspy",
+      "categoryId": "trends-intel",
+      "name": "BigSpy",
+      "subFunction": "跨平台广告情报",
+      "type": "site",
+      "url": "https://bigspy.com/",
+      "description": "多平台广告素材情报。"
+    },
+    {
+      "joinable": false,
+      "id": "google-advanced-search-tip",
+      "categoryId": "trends-intel",
+      "name": "谷歌高级搜索技巧",
+      "subFunction": "谷歌高级搜索",
+      "type": "tip",
+      "url": null,
+      "description": "技巧：品牌名 site:某域名 · 查站外露出。无独立链接。"
+    },
+    {
+      "joinable": true,
+      "id": "lastpass",
+      "categoryId": "productivity",
+      "name": "LastPass",
+      "subFunction": "密码管理",
+      "type": "extension",
+      "url": "https://www.lastpass.com/zh",
+      "description": "密码管理器；亦提供插件形式。"
+    },
+    {
+      "joinable": false,
+      "id": "faststone-capture",
+      "categoryId": "productivity",
+      "name": "FastStone Capture",
+      "subFunction": "截图/录屏",
+      "type": "desktop",
+      "url": null,
+      "description": "滚动截图、编辑、录 GIF；请从官网下载。"
+    },
+    {
+      "joinable": false,
+      "id": "everything",
+      "categoryId": "productivity",
+      "name": "Everything",
+      "subFunction": "本地文件搜索",
+      "type": "desktop",
+      "url": null,
+      "description": "Windows 极速文件名搜索；官网下载。"
+    },
+    {
+      "joinable": false,
+      "id": "aseller",
+      "categoryId": "productivity",
+      "name": "aSeller",
+      "subFunction": "销量/排名（手机）",
+      "type": "app",
+      "url": null,
+      "description": "手机 App；原文称免费约半年；邀请码 w502267（可能失效）。"
+    },
+    {
+      "joinable": true,
+      "id": "qr-batch",
+      "categoryId": "productivity",
+      "name": "QR Batch",
+      "subFunction": "二维码批量",
+      "type": "site",
+      "url": "https://www.qr-batch.com/",
+      "description": "批量生成二维码。"
+    },
+    {
+      "joinable": true,
+      "id": "shortlink-0x3",
+      "categoryId": "productivity",
+      "name": "0x3.me",
+      "subFunction": "短链",
+      "type": "site",
+      "url": "https://0x3.me/",
+      "description": "短链接服务。"
+    },
+    {
+      "joinable": true,
+      "id": "random-51240",
+      "categoryId": "productivity",
+      "name": "51240 随机码",
+      "subFunction": "随机码",
+      "type": "site",
+      "url": "https://suijimimashengcheng.51240.com/",
+      "description": "随机密码/码生成。"
+    },
+    {
+      "joinable": true,
+      "id": "magic-mockups",
+      "categoryId": "productivity",
+      "name": "Magic Mockups",
+      "subFunction": "样机/素材（社交展示）",
+      "type": "site",
+      "url": "https://magicmockups.com/",
+      "description": "设备样机与展示图生成。"
+    },
+    {
+      "joinable": true,
+      "id": "fotiaoqiang",
+      "categoryId": "network-accounts",
+      "name": "佛跳墙",
+      "subFunction": "代理/VPN 类",
+      "type": "site",
+      "url": "https://bit.ly/3m37AL4",
+      "description": "原文称免费限流；合规风险请自负。"
+    },
+    {
+      "joinable": true,
+      "id": "quickq",
+      "categoryId": "network-accounts",
+      "name": "QuickQ",
+      "subFunction": "代理/VPN 类",
+      "type": "site",
+      "url": "https://js66.fun/",
+      "description": "原文邀请码 FHCV44NC（可能失效）。"
+    },
+    {
+      "joinable": true,
+      "id": "ssr-nodes-short",
+      "categoryId": "network-accounts",
+      "name": "SSR 节点（短链）",
+      "subFunction": "SSR 节点",
+      "type": "site",
+      "url": "https://bit.ly/3EV6tER",
+      "description": "原文提供的节点相关短链；请自行甄别安全性。"
+    },
+    {
+      "joinable": true,
+      "id": "kuajingvs",
+      "categoryId": "network-accounts",
+      "name": "跨境卫士",
+      "subFunction": "防关联浏览器",
+      "type": "site",
+      "url": "https://www.kuajingvs.com",
+      "description": "防关联浏览器类服务。"
+    },
+    {
+      "joinable": true,
+      "id": "zhanghaogou",
+      "categoryId": "network-accounts",
+      "name": "账号狗",
+      "subFunction": "防关联",
+      "type": "site",
+      "url": "http://www.zhanghaogou.com/",
+      "description": "多账号防关联类（以官网为准）。"
+    },
+    {
+      "joinable": true,
+      "id": "ziniao-browser",
+      "categoryId": "network-accounts",
+      "name": "紫鸟",
+      "subFunction": "超级浏览器",
+      "type": "site",
+      "url": "http://superbrowser.ziniao.com/register/",
+      "description": "超级浏览器注册入口。"
+    },
+    {
+      "joinable": true,
+      "id": "edecker",
+      "categoryId": "network-accounts",
+      "name": "易得客",
+      "subFunction": "防关联",
+      "type": "site",
+      "url": "https://www.edecker.cn/",
+      "description": "防关联浏览器/环境类。"
+    },
+    {
+      "joinable": true,
+      "id": "timeanddate",
+      "categoryId": "calendar-misc",
+      "name": "Time and Date",
+      "subFunction": "全球节假日",
+      "type": "site",
+      "url": "https://www.timeanddate.com",
+      "description": "全球节假日与日历查询。"
+    }
+  ]
+}

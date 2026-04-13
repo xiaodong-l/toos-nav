@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>审阅待生效修改 · 亚马逊工具导航</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <h1 class="site-title"><a href="index.html">亚马逊工具导航</a></h1>
+        <nav class="nav-tabs" aria-label="主导航">
+          <a href="index.html">门户</a>
+          <a href="catalog.html">全部工具</a>
+          <a href="review.html" class="is-active">审阅 <span id="nav-pending-badge" class="nav-pending-badge" aria-live="polite"></span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <h2 class="section-title">内置工具修改审阅</h2>
+      <p class="section-sub" style="margin-top: 0">
+        在「全部工具」中编辑内置条目并提交后，修改会出现在下方。请核对「当前生效」与「拟改」差异后<strong>采纳</strong>或<strong>丢弃</strong>。采纳后门户与全量页将显示新内容。自定义工具编辑不经过本页。
+      </p>
+      <p class="section-sub">
+        待审阅条数：<strong id="review-count">0</strong>
+        <button type="button" class="btn btn--primary" id="btn-approve-all" style="margin-left: 0.75rem">
+          全部采纳
+        </button>
+      </p>
+
+      <div id="review-list" class="review-list" aria-live="polite"></div>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        本页所列第三方网站与工具仅供检索与导航，不构成任何推荐或背书；访问与使用所产生的风险由您自行承担。
+      </p>
+      <p>
+        <strong>数据存放：</strong>待审阅与已采纳覆盖均保存在本机 localStorage；导出备份 JSON 会包含
+        <code>pendingBuiltinEdits</code> 与 <code>approvedBuiltinOverrides</code>。
+      </p>
+    </footer>
+
+    <script src="tools-data.js"></script>
+    <script src="storage.js"></script>
+    <script src="data-merge.js"></script>
+    <script src="app-review.js"></script>
+  </body>
+</html>
